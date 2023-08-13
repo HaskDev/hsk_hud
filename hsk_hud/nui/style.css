@@ -1,0 +1,45 @@
+.all-hud{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .8vh;
+    max-width: 40vh;
+    height: 4.25vh;
+    bottom: 1.3vw;
+    left: 1vw;
+}
+
+.all-hud .hud-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .6vh;
+    height: 2.6vw;
+    width: 2.6vw;
+    background-color: rgba(0, 0, 0, 0.700);
+    box-shadow: 0 0 .8vh black;
+    border-radius: .4vh;
+}
+
+.hud-box i{
+    font-size: 1.8vh;
+    color: white;
+}
+
+.hud-box .progg{
+    width: 70%;
+    height: 0.26vw;
+    background: rgba(255, 255, 255, 0.068);
+}
+
+.progg .progin{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 .35vh rgb(255, 255, 255);
+    transition: width .25s ease-in-out;
+}
